@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B908AB0B24B893BA005B0021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908AB0A24B893BA005B0021 /* AppDelegate.swift */; };
+		B908AB0D24B893BA005B0021 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908AB0C24B893BA005B0021 /* SceneDelegate.swift */; };
+		B908AB0F24B893BA005B0021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908AB0E24B893BA005B0021 /* ViewController.swift */; };
+		B908AB1224B893BA005B0021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B908AB1024B893BA005B0021 /* Main.storyboard */; };
+		B908AB1424B893C0005B0021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B908AB1324B893C0005B0021 /* Assets.xcassets */; };
+		B908AB1724B893C0005B0021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B908AB1524B893C0005B0021 /* LaunchScreen.storyboard */; };
+		B908AB2224B893C0005B0021 /* LuasAppSegitigaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908AB2124B893C0005B0021 /* LuasAppSegitigaTests.swift */; };
+		B908AB2D24B893C0005B0021 /* LuasAppSegitigaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B908AB2C24B893C0005B0021 /* LuasAppSegitigaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B908AB1E24B893C0005B0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B908AAFF24B893BA005B0021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B908AB0624B893BA005B0021;
+			remoteInfo = LuasAppSegitiga;
+		};
+		B908AB2924B893C0005B0021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B908AAFF24B893BA005B0021 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B908AB0624B893BA005B0021;
+			remoteInfo = LuasAppSegitiga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B908AB0724B893BA005B0021 /* LuasAppSegitiga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuasAppSegitiga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B908AB0A24B893BA005B0021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B908AB0C24B893BA005B0021 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B908AB0E24B893BA005B0021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B908AB1124B893BA005B0021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B908AB1324B893C0005B0021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B908AB1624B893C0005B0021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B908AB1824B893C0005B0021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B908AB1D24B893C0005B0021 /* LuasAppSegitigaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuasAppSegitigaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B908AB2124B893C0005B0021 /* LuasAppSegitigaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasAppSegitigaTests.swift; sourceTree = "<group>"; };
+		B908AB2324B893C0005B0021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B908AB2824B893C0005B0021 /* LuasAppSegitigaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuasAppSegitigaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B908AB2C24B893C0005B0021 /* LuasAppSegitigaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuasAppSegitigaUITests.swift; sourceTree = "<group>"; };
+		B908AB2E24B893C0005B0021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B908AB0424B893BA005B0021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908AB1A24B893C0005B0021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908AB2524B893C0005B0021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B908AAFE24B893BA005B0021 = {
+			isa = PBXGroup;
+			children = (
+				B908AB0924B893BA005B0021 /* LuasAppSegitiga */,
+				B908AB2024B893C0005B0021 /* LuasAppSegitigaTests */,
+				B908AB2B24B893C0005B0021 /* LuasAppSegitigaUITests */,
+				B908AB0824B893BA005B0021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B908AB0824B893BA005B0021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B908AB0724B893BA005B0021 /* LuasAppSegitiga.app */,
+				B908AB1D24B893C0005B0021 /* LuasAppSegitigaTests.xctest */,
+				B908AB2824B893C0005B0021 /* LuasAppSegitigaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B908AB0924B893BA005B0021 /* LuasAppSegitiga */ = {
+			isa = PBXGroup;
+			children = (
+				B908AB0A24B893BA005B0021 /* AppDelegate.swift */,
+				B908AB0C24B893BA005B0021 /* SceneDelegate.swift */,
+				B908AB0E24B893BA005B0021 /* ViewController.swift */,
+				B908AB1024B893BA005B0021 /* Main.storyboard */,
+				B908AB1324B893C0005B0021 /* Assets.xcassets */,
+				B908AB1524B893C0005B0021 /* LaunchScreen.storyboard */,
+				B908AB1824B893C0005B0021 /* Info.plist */,
+			);
+			path = LuasAppSegitiga;
+			sourceTree = "<group>";
+		};
+		B908AB2024B893C0005B0021 /* LuasAppSegitigaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B908AB2124B893C0005B0021 /* LuasAppSegitigaTests.swift */,
+				B908AB2324B893C0005B0021 /* Info.plist */,
+			);
+			path = LuasAppSegitigaTests;
+			sourceTree = "<group>";
+		};
+		B908AB2B24B893C0005B0021 /* LuasAppSegitigaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B908AB2C24B893C0005B0021 /* LuasAppSegitigaUITests.swift */,
+				B908AB2E24B893C0005B0021 /* Info.plist */,
+			);
+			path = LuasAppSegitigaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B908AB0624B893BA005B0021 /* LuasAppSegitiga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B908AB3124B893C0005B0021 /* Build configuration list for PBXNativeTarget "LuasAppSegitiga" */;
+			buildPhases = (
+				B908AB0324B893BA005B0021 /* Sources */,
+				B908AB0424B893BA005B0021 /* Frameworks */,
+				B908AB0524B893BA005B0021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuasAppSegitiga;
+			productName = LuasAppSegitiga;
+			productReference = B908AB0724B893BA005B0021 /* LuasAppSegitiga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B908AB1C24B893C0005B0021 /* LuasAppSegitigaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B908AB3424B893C0005B0021 /* Build configuration list for PBXNativeTarget "LuasAppSegitigaTests" */;
+			buildPhases = (
+				B908AB1924B893C0005B0021 /* Sources */,
+				B908AB1A24B893C0005B0021 /* Frameworks */,
+				B908AB1B24B893C0005B0021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B908AB1F24B893C0005B0021 /* PBXTargetDependency */,
+			);
+			name = LuasAppSegitigaTests;
+			productName = LuasAppSegitigaTests;
+			productReference = B908AB1D24B893C0005B0021 /* LuasAppSegitigaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B908AB2724B893C0005B0021 /* LuasAppSegitigaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B908AB3724B893C0005B0021 /* Build configuration list for PBXNativeTarget "LuasAppSegitigaUITests" */;
+			buildPhases = (
+				B908AB2424B893C0005B0021 /* Sources */,
+				B908AB2524B893C0005B0021 /* Frameworks */,
+				B908AB2624B893C0005B0021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B908AB2A24B893C0005B0021 /* PBXTargetDependency */,
+			);
+			name = LuasAppSegitigaUITests;
+			productName = LuasAppSegitigaUITests;
+			productReference = B908AB2824B893C0005B0021 /* LuasAppSegitigaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B908AAFF24B893BA005B0021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Den Bagus";
+				TargetAttributes = {
+					B908AB0624B893BA005B0021 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					B908AB1C24B893C0005B0021 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B908AB0624B893BA005B0021;
+					};
+					B908AB2724B893C0005B0021 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = B908AB0624B893BA005B0021;
+					};
+				};
+			};
+			buildConfigurationList = B908AB0224B893BA005B0021 /* Build configuration list for PBXProject "LuasAppSegitiga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B908AAFE24B893BA005B0021;
+			productRefGroup = B908AB0824B893BA005B0021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B908AB0624B893BA005B0021 /* LuasAppSegitiga */,
+				B908AB1C24B893C0005B0021 /* LuasAppSegitigaTests */,
+				B908AB2724B893C0005B0021 /* LuasAppSegitigaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B908AB0524B893BA005B0021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B908AB1724B893C0005B0021 /* LaunchScreen.storyboard in Resources */,
+				B908AB1424B893C0005B0021 /* Assets.xcassets in Resources */,
+				B908AB1224B893BA005B0021 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908AB1B24B893C0005B0021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908AB2624B893C0005B0021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B908AB0324B893BA005B0021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B908AB0F24B893BA005B0021 /* ViewController.swift in Sources */,
+				B908AB0B24B893BA005B0021 /* AppDelegate.swift in Sources */,
+				B908AB0D24B893BA005B0021 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908AB1924B893C0005B0021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B908AB2224B893C0005B0021 /* LuasAppSegitigaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B908AB2424B893C0005B0021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B908AB2D24B893C0005B0021 /* LuasAppSegitigaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B908AB1F24B893C0005B0021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B908AB0624B893BA005B0021 /* LuasAppSegitiga */;
+			targetProxy = B908AB1E24B893C0005B0021 /* PBXContainerItemProxy */;
+		};
+		B908AB2A24B893C0005B0021 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B908AB0624B893BA005B0021 /* LuasAppSegitiga */;
+			targetProxy = B908AB2924B893C0005B0021 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B908AB1024B893BA005B0021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B908AB1124B893BA005B0021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B908AB1524B893C0005B0021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B908AB1624B893C0005B0021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B908AB2F24B893C0005B0021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B908AB3024B893C0005B0021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B908AB3224B893C0005B0021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHXG63X253;
+				INFOPLIST_FILE = LuasAppSegitiga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenBagus.LuasAppSegitiga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B908AB3324B893C0005B0021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHXG63X253;
+				INFOPLIST_FILE = LuasAppSegitiga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenBagus.LuasAppSegitiga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B908AB3524B893C0005B0021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHXG63X253;
+				INFOPLIST_FILE = LuasAppSegitigaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenBagus.LuasAppSegitigaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuasAppSegitiga.app/LuasAppSegitiga";
+			};
+			name = Debug;
+		};
+		B908AB3624B893C0005B0021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHXG63X253;
+				INFOPLIST_FILE = LuasAppSegitigaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenBagus.LuasAppSegitigaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuasAppSegitiga.app/LuasAppSegitiga";
+			};
+			name = Release;
+		};
+		B908AB3824B893C0005B0021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHXG63X253;
+				INFOPLIST_FILE = LuasAppSegitigaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenBagus.LuasAppSegitigaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuasAppSegitiga;
+			};
+			name = Debug;
+		};
+		B908AB3924B893C0005B0021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHXG63X253;
+				INFOPLIST_FILE = LuasAppSegitigaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DenBagus.LuasAppSegitigaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuasAppSegitiga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B908AB0224B893BA005B0021 /* Build configuration list for PBXProject "LuasAppSegitiga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B908AB2F24B893C0005B0021 /* Debug */,
+				B908AB3024B893C0005B0021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B908AB3124B893C0005B0021 /* Build configuration list for PBXNativeTarget "LuasAppSegitiga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B908AB3224B893C0005B0021 /* Debug */,
+				B908AB3324B893C0005B0021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B908AB3424B893C0005B0021 /* Build configuration list for PBXNativeTarget "LuasAppSegitigaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B908AB3524B893C0005B0021 /* Debug */,
+				B908AB3624B893C0005B0021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B908AB3724B893C0005B0021 /* Build configuration list for PBXNativeTarget "LuasAppSegitigaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B908AB3824B893C0005B0021 /* Debug */,
+				B908AB3924B893C0005B0021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B908AAFF24B893BA005B0021 /* Project object */;
+}
