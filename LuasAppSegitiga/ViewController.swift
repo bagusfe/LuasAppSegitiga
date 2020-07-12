@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         //Konversi dari text/string ke nilai float
         let floatAlas = Float(alas)!
         let floatTinggi = Float(tinggi)!
-        let floatTingg = Float(tinggi)!
+        let a = 1
         
         //Perhitungan luas segitiga
         let hasil = 0.5 * floatAlas * floatTinggi
